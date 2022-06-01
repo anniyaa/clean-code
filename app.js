@@ -28,9 +28,11 @@ var createNewTaskElement=function(taskString){
     //button.edit
     var editButton=document.createElement("button");//edit button
 
+
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
+
 
     label.innerText=taskString;
     label.className='task';
@@ -70,6 +72,20 @@ var addTask=function(){
     bindTaskEvents(listItem, taskCompleted);
 
     taskInput.value="";
+
+    document.querySelectorAll('button').forEach(b=>{
+        if (!(b.classList.contains('.btn'))) {
+            console.log('sda')
+            b.classList.add('btn')
+        };
+    })
+
+    document.querySelectorAll('li').forEach(b=>{
+        if (!(b.classList.contains('.list-item'))) {
+            console.log('sda')
+            b.classList.add('list-item')
+        };
+    })
 
 }
 
