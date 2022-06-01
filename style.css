@@ -73,7 +73,7 @@ button{
 
 /* Heading */
 
-h3,
+.title,
 label[for='new-task'] {
     color: #333;
     font-weight: 700;
