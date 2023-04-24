@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header-container .more_inf-link {
+.header-container .header-container__link {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.add-item-wrapper {
+.add-item-section__wrapper {
   display: flex;
 }
 
@@ -106,12 +106,12 @@ label[for="new-task"] {
 
 /* New Task */
 
-.new-task__label {
+.add-item-section__label {
   display: block;
   margin: 0 0 20px;
 }
 
-.input__new-task {
+.add-item-section__input {
   width: 318px;
 }
 
