@@ -105,7 +105,7 @@ var editTask=function(){
     //switch to .edit-mode
     //label becomes the inputs value.
     label.innerText=editInput.value;
-    ditBtn.innerText="Edit";
+    editBtn.innerText="Edit";
    }else{
      editInput.value=label.innerText;
      editBtn.innerText="Save";
